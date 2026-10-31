@@ -36,7 +36,7 @@ At this stage, the composition remained largely intact rather than being redesig
 The word `WASTE` was modified through changes in size, position and rotation.
 
 This intervention introduced a deliberate visual disruption and reinforced the RUPTURE principle.
-
+assets/images/Changing the Order 01.png
 ## Design Decisions
 
 - Preserve the original A0 poster.
