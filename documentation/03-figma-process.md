@@ -13,7 +13,9 @@ An original A0 poster was created to explore the visual concept ORDER / RUPTURE.
 The poster established the initial visual language, including typography, graphic elements, spatial relationships and composition.
 
 **Documentation:** Original A0 poster screenshot.
+
 assets/images/A0 POSTER.png
+
 ## Stage 2 — Creating the Web Frame
 
 A separate frame named `WEB — IDENTITY` was created in Figma.
@@ -24,7 +26,9 @@ Frame dimensions:
 - Height: 1200 px
 
 The original poster was preserved as a separate design artifact.
+
 assets/images/Web-frame.png
+
 ## Stage 3 — Adapting the Composition
 
 The poster elements were copied into the new web frame and adjusted to fit its dimensions.
@@ -36,7 +40,9 @@ At this stage, the composition remained largely intact rather than being redesig
 The word `WASTE` was modified through changes in size, position and rotation.
 
 This intervention introduced a deliberate visual disruption and reinforced the RUPTURE principle.
+
 assets/images/Changing the Order 01.png
+
 ## Design Decisions
 
 - Preserve the original A0 poster.
