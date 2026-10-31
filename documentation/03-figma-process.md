@@ -42,7 +42,7 @@ The word `WASTE` was modified through changes in size, position and rotation.
 
 This intervention introduced a deliberate visual disruption and reinforced the RUPTURE principle.
 
-assets/images/Changing the Order 01.png
+![Web Frame](../assets/images/Changing the Order 01.png)
 
 ## Design Decisions
 
