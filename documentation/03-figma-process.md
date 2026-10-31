@@ -14,8 +14,6 @@ The poster established the initial visual language, including typography, graphi
 
 **Documentation:** Original A0 poster screenshot.
 
-![Original A0 Poster](../assets/images/A0%20POSTER.png)
-
 ## Stage 2 — Creating the Web Frame
 
 A separate frame named `WEB — IDENTITY` was created in Figma.
@@ -26,8 +24,6 @@ Frame dimensions:
 - Height: 1200 px
 
 The original poster was preserved as a separate design artifact.
-
-![Web Frame](../assets/images/Web-frame.png)
 
 ## Stage 3 — Adapting the Composition
 
