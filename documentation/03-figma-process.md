@@ -27,7 +27,7 @@ Frame dimensions:
 
 The original poster was preserved as a separate design artifact.
 
-assets/images/Web-frame.png
+![Web Frame](../assets/images/Web-frame.png)
 
 ## Stage 3 — Adapting the Composition
 
