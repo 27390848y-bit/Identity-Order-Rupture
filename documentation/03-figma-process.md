@@ -13,7 +13,7 @@ An original A0 poster was created to explore the visual concept ORDER / RUPTURE.
 The poster established the initial visual language, including typography, graphic elements, spatial relationships and composition.
 
 **Documentation:** Original A0 poster screenshot.
-
+assets/images/A0 POSTER.png
 ## Stage 2 — Creating the Web Frame
 
 A separate frame named `WEB — IDENTITY` was created in Figma.
