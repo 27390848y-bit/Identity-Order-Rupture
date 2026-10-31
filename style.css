@@ -119,7 +119,7 @@ body {
     letter-spacing: -0.09em;
     line-height: 1;
     transform: rotate(-7deg);
-    transform-origin: left center;
+    transform-origin: center;
     margin: 28px 0;
 }
 
