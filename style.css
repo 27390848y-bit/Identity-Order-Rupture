@@ -1,1 +1,17 @@
+/* =================================
+   PERSONAL IDENTITY WEBSITE
+   ORDER / RUPTURE
+   ================================= */
 
+/* בסיס האתר */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f0eb;
+    color: #202020;
+    font-family: Arial, sans-serif;
+}
