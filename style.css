@@ -114,7 +114,7 @@ body {
 
 .waste-word {
     color: var(--accent);
-    font-size: clamp(60px, 9vw, 135px);
+    font-size: clamp(30px, 4.5vw, 67.5px);
     font-weight: 900;
     letter-spacing: -0.09em;
     line-height: 1;
