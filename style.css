@@ -264,3 +264,21 @@ body {
         font-size: clamp(56px, 15vw, 100px);
     }
 }
+
+/* STEP 8 — ARCHITECTURAL BACKGROUND GRID */
+
+body {
+    background-color: #f2f0eb;
+    background-image:
+        linear-gradient(
+            rgba(80, 80, 80, 0.055) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(80, 80, 80, 0.055) 1px,
+            transparent 1px
+        );
+
+    background-size: 48px 48px;
+}
