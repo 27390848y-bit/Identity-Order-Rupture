@@ -1,17 +1,266 @@
-/* =================================
-   PERSONAL IDENTITY WEBSITE
-   ORDER / RUPTURE
-   ================================= */
 
-/* בסיס האתר */
+/* =====================================
+   IDENTITY — ORDER / RUPTURE
+   First Design Version
+   ===================================== */
+
+:root {
+    --background: #f2f0eb;
+    --ink: #202020;
+    --accent: #c73b32;
+    --line: #aaa8a1;
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    background: var(--background);
+    color: var(--ink);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.identity-page {
+    width: min(1440px, 100%);
+    margin: 0 auto;
+    padding: 36px 48px;
+}
+
+/* Header */
+
+.main-header {
+    border-top: 2px solid var(--ink);
+    padding-top: 12px;
+}
+
+.eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.2em;
+}
+
+.main-header h1 {
+    font-size: clamp(32px, 5vw, 76px);
+    line-height: 0.95;
+    letter-spacing: -0.055em;
+    margin: 38px 0 12px;
+}
+
+.main-header h1 span {
+    font-weight: 400;
+}
+
+.subtitle {
+    font-size: 19px;
+    margin-bottom: 28px;
+}
+
+/* Introduction */
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    padding: 12px 0;
+    margin-bottom: 36px;
+}
+
+.intro p {
+    font-size: 13px;
+}
+
+/* Architectural grid */
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 42px 36px;
+}
+
+.section {
+    position: relative;
+    min-height: 300px;
+    border-top: 2px solid var(--ink);
+    padding-top: 12px;
+}
+
+.section h2 {
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    margin: 0 0 30px;
+}
+
+.section h3 {
+    font-size: 20px;
+}
+
+.section p,
+.section li {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* Linear model */
+
+.process {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.waste-word {
+    color: var(--accent);
+    font-size: clamp(60px, 9vw, 135px);
+    font-weight: 900;
+    letter-spacing: -0.09em;
+    line-height: 1;
+    transform: rotate(-7deg);
+    transform-origin: left center;
+    margin: 28px 0;
+}
+
+.shift {
+    border-top: 1px solid var(--line);
+    margin-top: 24px;
+    padding-top: 12px;
+}
+
+.shift-label {
+    font-weight: bold;
+}
+
+/* Circular building life */
+
+.cycle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 35px 0;
+}
+
+.cycle span {
+    border: 1px solid var(--ink);
+    padding: 24px 12px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.cycle span:first-child {
+    grid-column: span 2;
+    background: var(--ink);
+    color: var(--background);
+}
+
+/* Actors */
+
+.actor-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.actor-list p {
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 12px;
+}
+
+/* Opportunities */
+
+.opportunities ul {
+    list-style: none;
     padding: 0;
-    background-color: #f2f0eb;
-    color: #202020;
-    font-family: Arial, sans-serif;
+}
+
+.opportunities li {
+    border-bottom: 1px solid var(--line);
+    padding: 12px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Circulation */
+
+.circulation {
+    margin-top: 55px;
+    padding: 24px 0;
+    border-top: 2px solid var(--ink);
+    border-bottom: 2px solid var(--ink);
+}
+
+.question {
+    max-width: 650px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.circulation h2 {
+    font-size: clamp(22px, 3vw, 42px);
+    letter-spacing: -0.04em;
+    margin: 45px 0 12px;
+}
+
+.circulation-title {
+    font-size: 12px;
+    letter-spacing: 0.2em;
+}
+
+.comparison {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+/* Footer */
+
+.main-footer {
+    padding: 25px 0 10px;
+}
+
+.main-footer p {
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    line-height: 1.8;
+}
+
+.main-footer h2 {
+    font-size: clamp(30px, 5vw, 70px);
+    letter-spacing: -0.05em;
+    margin: 30px 0 8px;
+}
+
+.main-footer span {
+    font-size: 11px;
+}
+
+/* Smaller screens */
+
+@media (max-width: 700px) {
+    .identity-page {
+        padding: 20px;
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .intro,
+    .comparison {
+        flex-direction: column;
+    }
+
+    .section {
+        min-height: auto;
+    }
+
+    .waste-word {
+        font-size: clamp(56px, 15vw, 100px);
+    }
 }
