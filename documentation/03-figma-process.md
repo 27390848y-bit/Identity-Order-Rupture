@@ -24,7 +24,7 @@ Frame dimensions:
 - Height: 1200 px
 
 The original poster was preserved as a separate design artifact.
-
+assets/images/Web-frame.png
 ## Stage 3 — Adapting the Composition
 
 The poster elements were copied into the new web frame and adjusted to fit its dimensions.
