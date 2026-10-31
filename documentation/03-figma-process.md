@@ -82,6 +82,9 @@ This intervention introduced a deliberate visual disruption and reinforced the R
 
 ![Web Frame](../assets/images/Changing%20the%20Order%2001.png)
 
+![Web Frame](../assets/images/Changing%20the%20Order%2002.png)
+
+
 ## Design Decisions
 
 - Preserve the original A0 poster.
