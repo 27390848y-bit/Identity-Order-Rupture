@@ -14,8 +14,7 @@ The poster established the initial visual language, including typography, graphi
 
 **Documentation:** Original A0 poster screenshot.
 
-![Web Frame](../assets/images/A0%POSTER.png)
-
+![Original A0 Poster](../assets/images/A0%20POSTER.png)
 
 ## Stage 2 — Creating the Web Frame
 
