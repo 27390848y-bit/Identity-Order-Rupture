@@ -118,9 +118,9 @@ body {
     font-weight: 900;
     letter-spacing: -0.09em;
     line-height: 1;
-    transform: rotate(-7deg);
+    transform: rotate(-5deg);
     transform-origin: center;
-    margin: 28px 0;
+    margin: 32px 0;
 }
 
 .shift {
