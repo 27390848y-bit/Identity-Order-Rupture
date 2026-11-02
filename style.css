@@ -81,6 +81,7 @@ body {
     gap: 42px 36px;
     position: relative;
     isolation: isolate;
+    overflow: visible;
 }
 
 
@@ -108,6 +109,42 @@ body {
 @media (hover: hover) and (pointer: fine) {
     .content-grid:hover::before {
         opacity: 0.95;
+    }
+}
+
+
+/* DISASSEMBLY CONNECTION AXES */
+
+.content-grid::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+
+    background-image:
+        linear-gradient(
+            to right,
+            transparent 49.9%,
+            #c73b32 49.9%,
+            #c73b32 50.1%,
+            transparent 50.1%
+        ),
+        linear-gradient(
+            to bottom,
+            transparent 50%,
+            #c73b32 50%,
+            #c73b32 50.2%,
+            transparent 50.2%
+        );
+
+    opacity: 0;
+    transition: opacity 0.55s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .content-grid:hover::after {
+        opacity: 0.65;
     }
 }
 
