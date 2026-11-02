@@ -74,10 +74,68 @@ body {
 
 /* Architectural grid */
 
+
 .content-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 42px 36px;
+    position: relative;
+    isolation: isolate;
+}
+
+
+/* DIAGONAL FRACTURE LINE */
+
+.content-grid::before {
+    content: "";
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+
+    top: -15px;
+    bottom: -15px;
+    left: 50%;
+    width: 3px;
+
+    background: #c73b32;
+    transform: translateX(-50%) rotate(9deg);
+    transform-origin: center;
+    opacity: 0.3;
+
+    transition: opacity 0.55s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .content-grid:hover::before {
+        opacity: 0.95;
+    }
+}
+
+
+/* ARCHITECTURAL MODULE MARKERS */
+
+.section::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 9px;
+    height: 9px;
+    border: 1px solid #c73b32;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 18px;
+    height: 18px;
+    border-left: 2px solid #c73b32;
+    border-bottom: 2px solid #c73b32;
+    pointer-events: none;
 }
 
 
