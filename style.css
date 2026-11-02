@@ -80,11 +80,49 @@ body {
     gap: 42px 36px;
 }
 
+
 .section {
     position: relative;
     min-height: 300px;
     border-top: 2px solid var(--ink);
-    padding-top: 12px;
+    padding: 12px 16px 20px;
+    background: rgba(242, 240, 235, 0.94);
+
+    transition:
+        transform 0.55s cubic-bezier(0.2, 0.8, 0.2, 1),
+        box-shadow 0.55s ease;
+
+    transform-origin: center center;
+}
+
+/* MODULAR DISASSEMBLY — HOVER */
+
+@media (hover: hover) and (pointer: fine) {
+    .content-grid:hover .section:nth-child(1) {
+        transform: translate(-10px, -8px) rotate(-3deg);
+    }
+
+    .content-grid:hover .section:nth-child(2) {
+        transform: translate(12px, -6px) rotate(3deg);
+    }
+
+    .content-grid:hover .section:nth-child(3) {
+        transform: translate(-8px, 10px) rotate(2deg);
+    }
+
+    .content-grid:hover .section:nth-child(4) {
+        transform: translate(10px, 8px) rotate(-3deg);
+    }
+
+    .content-grid:hover .section {
+        box-shadow: 5px 7px 0 rgba(199, 59, 50, 0.15);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .section {
+        transition: none;
+    }
 }
 
 .section h2 {
